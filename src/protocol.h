@@ -11,7 +11,8 @@
 #define PRODUCT_NAME_ARRAY        't', 'i', 'n', 'y', '-', 'b', 'r', 'i', 'd', 'g', 'e'
 #define PRODUCT_NAME_ARRAY_LEN    11
 
-#define USB_NRF_STATUS    2
-#define USB_NRF_TRANSFER1 3
+#define REQUEST_BRIDGE_STATUS     1
+#define REQUEST_BRIDGE_NRF_STATUS 2
+#define REQUEST_TRANSFER1         3
 
 #endif
